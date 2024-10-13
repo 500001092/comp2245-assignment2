@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COMP2245 Assignment 2</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Float image to the right with space */
+    .image-right {
+      float: right;
+      margin: 0 0 10px 10px;
+      width: 200px;
+      height: 200px; /* Square shape */
+      object-fit: cover; /* Ensures the image fits inside the square */
+    }
+
+    /* Float image to the left with space */
+    .image-left {
+      float: left;
+      margin: 0 10px 10px 0;
+      width: 200px;
+      height: 200px; /* Square shape */
+      object-fit: cover; /* Ensures the image fits inside the square */
+    }
+
+    /* Ensure paragraphs and sections don't overlap floats */
+    p {
+      clear: both;
+      line-height: 1.6; /* Improve readability */
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    header img {
+      border-radius: 50%; /* Circular profile image */
+    }
+
+    main {
+      max-width: 800px;
+      margin: 0 auto; /* Center the main content */
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Absael's Blog</h1>
+    <p>Welcome to my Blog!!</p>
+    <div id="img">
+      <img src="Photo of Me.jpg" alt="Just me" width="100px" height="100px">
+    </div>
+  </header>
+
+  <main>
+   <article>
+      <h2>What Being a Christian Actually Means</h2>
+      <h3>October 2, 2024, by Anthony Roberts</h3>
+      
+      <p>
+        I don’t go to church, but I consider myself religious. I don’t often write about religion, but today I will. 
+        It’s important to me—really, it is. I’ve always said, tongue-in-cheek, why wouldn’t I want a relationship 
+        with the Creator? Why wouldn’t I want to know God?
+      </p>
+    
+      <p>
+        To me, it’s only human to wonder who’s behind all of this. It’s our right. It’s our uniquely human gift. 
+        Growing up, you go to school and hear about the Big Bang theory, but call me skeptical—I believe the world 
+        and universe are too complex for everything to have happened by accident. 
+        <img src="Christianity.jpg" alt="Christianity Image" class="image-right">
+        If it is, it’s one heck of a lucky accident. And even more so, how did all the matter form? 
+        This is not to say science and religion cannot coexist—they should. But it is to say there is something more.
+      
+    
+      
+        Lately, with a curious mind, I’ve made a habit of reading the Bible to understand more and form my own thoughts 
+        on the stories I’ve heard for decades. I tend to think religion, much like politics, is a giant game of telephone—someone 
+        says something, and it gets misinterpreted in ways only humans can misinterpret. So, I started reading the Bible to get 
+        my own thoughts. After much reflection, here’s my stance in a nutshell: 
+        <strong>Real Christianity is much harder than you think.</strong>
+      </p>
+    
+      <p>
+        Being a Christian is about striving to be Christ-like, living beyond selfish desires and impulses. It’s not about 
+        attending church or appearances, but following Christ’s example—living a life of love and resisting the urge to judge, 
+        indulge in pride, or act out of ego. The author acknowledges that humans are deeply flawed and driven by self-preservation 
+        and comfort. Despite these struggles, Christianity is about continual effort: living for God, overcoming personal flaws, 
+        and embracing love, even when it's hard.
+      </p>
+    
+      <h2>The Nature of Truth</h2>
+      <h3>October 4, 2024, by Johnbritto Kurusumuthu</h3>
+    
+      <p>
+        <img src="Truth.jpg" alt="Truth Image" class="image-left">
+        If there’s one thing I’ve learned over the years, it’s that truth is not fixed. Our understanding of what is “true” 
+        is shaped by our knowledge, experiences, and the lens through which we view the world. I once believed that success 
+        meant climbing the corporate ladder, achieving societal status, and acquiring material possessions. But life has a way 
+        of humbling us, doesn’t it?
+      
+    
+      
+        As I matured, I realized that success has less to do with external measures and more to do with internal fulfillment—something 
+        that shifts as our priorities evolve. I now see truth as a fluid concept, one that changes over time, culture, and personal growth. 
+        What may have seemed undeniably true to me a decade ago is now up for reconsideration.
+      </p>
+    
+      <p>
+        This evolution isn’t a betrayal of my past beliefs; rather, it’s a testament to the complexity of human understanding. We are 
+        shaped by the ever-changing circumstances of our lives, and so too is our perception of reality.
+      </p>
+    </article>    
+  </main>
+
+  <aside class="sidebar">
+   <section class="about">
+     <h3>About</h3>
+     <p>Hi, I'm Absael! I enjoy writing about life, faith, and truth.
+      When I’m not blogging, you can find me reading or exploring new ideas.
+     </p>
+   </section>
+
+   <section class="social-media">
+     <h3>Social Media</h3>
+     <ul>
+       <li><a href="https://www.facebook.com/absael.young.1/">Facebook</a></li>
+       <li><a href="https://x.com/absael_young">Twitter</a></li>
+       <li><a href="https://www.instagram.com/absaelyoung/?hl=en">Instagram</a></li>
+     </ul>
+   </section>
+
+   <section class="archives">
+     <h3>Archives</h3>
+     <ul>
+       <li><a href="#">May, 2020</a></li>
+       <li><a href="#">September, 2023</a></li>
+       <li><a href="#">August, 2024</a></li>
+       <li><a href="#">July, 2024</a></li>
+     </ul>
+   </section>
+ </aside>
+
+  <footer>
+    <p>Copyright &copy; 2023, Absael Young Romero</p>
+  </footer>
+</body>
+</html>
